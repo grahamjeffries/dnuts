@@ -1,0 +1,260 @@
+var dnutShops = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.7436445, 43.085846]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Lil's Cafe",
+                "street": "7 Wallingford Sq",
+                "town": "Kittery, ME 03904",
+                "desc": "This Kittery Foreside shop serves a variety of pastries, but is best known for its famous crullers. These airy, twisted donuts come glazed with a variety of sugary toppings like maple or apple cider and they sell out frequently, so go early to snag one.",
+                "icon": "img/lil_icon.png"
+            },
+            "id": 1
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.5851224064827, 43.30631220995732]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Congdon's Doughnuts",
+                "street": "1090 Post Rd",
+                "town": "Wells, ME 04090",
+                "desc": "This family-owned restaurant and bakery has been in business since the 1940s. Step up to the no-frills counter to choose from a variety of pillowy-soft raised donuts or go all out and order a dozen at the drive-thru window.",
+                "icon": "img/congdon_icon.png"
+            },
+            "id": 2
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.77473212766925, 43.43857721959995]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Dirty Dozen Donuts",
+                "street": "913 Main St",
+                "town": "Sanford, ME 04073",
+                "desc": "Congdon's Doughnuts alum Kelsey Quint's donut selection includes plain cake and chocolate cake with a variety of toppings like butter crunch or chocolate; filled varieties like lemon or maple creme; and raised dough covered with such treats as chocolate, maple frosting, or strawberry. Visit the recently opened expansion in downtown Biddeford as well.",
+                "icon": "img/dirty_icon.png"
+            },
+            "id": 3
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.45682966709137, 43.49379074401684]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Reilly's Bakery",
+                "street": "232 Main St",
+                "town": "Biddeford, ME 04005",
+                "desc": "Donut lovers have been flocking to this Biddeford institution for their fried treats for over 100 years. Go classic with a plain donut with chocolate frosting or try a perennial favorite: the maple bacon.",
+                "icon": "img/reilly_icon.png"
+            },
+            "id": 4
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.292962, 43.629118]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Little Bigs",
+                "street": "340 Main St - Rt. 1",
+                "town": "South Portland, ME 04106",
+                "desc": "Located in an unassuming Cash Corner strip mall on Route One, this diminutive bakery turns out stellar pastries, hand pies, and donuts. Little Bigs made headlines last year by recreating Dominique Ansel's croissant-doughnut hybrid \"Cronut\" — eventually a cease and desist letter prompted the South Portland bakery to rename its treats \"C&Ds.\"",
+                "icon": "img/little_icon.png"
+            },
+            "id": 5
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.22656665, 43.633502]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "The Cookie Jar",
+                "street": "560 Shore Rd",
+                "town": "Cape Elizabeth, ME 04107",
+                "desc": "This Cape E institution is comforting with its vintage feel and classic pastry menu. Cake donuts come in a variety of flavors from the classic chocolate glaze to seasonal favorites like apple and pumpkin.",
+                "icon": "img/cookie_icon.png"
+            },
+            "id": 6
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.28960890908368, 43.65764564583563]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Tony's Donuts",
+                "street": "9 Bolton St",
+                "town": "Portland, ME 04102",
+                "desc": "A local landmark, Tony's Donuts has been in business for over 50 years and is now run by the son of original baker Tony. The dense cake donuts are made by hand daily, and the molasses glazed is a particular crowd-pleaser.",
+                "icon": "img/tony_icon.png"
+            },
+            "id": 7
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.253417, 43.656687]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "The Holy Donut",
+                "street": "7 Exchange St",
+                "town": "Portland, ME 04101",
+                "desc": "The Holy Donut uses local potatoes in its dough, giving its treats a moist, dense texture and some Maine flair. Relatively new, the shop quickly gained a loyal following and regularly attracts national attention. See where it all started at the company's original Park Avenue location or grab a downtown snack at this Old Port expansion.",
+                "icon": "img/holy_icon.png"
+            },
+            "id": 8
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.18430820000003, 43.8923522]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Edna & Lucy's",
+                "street": "407 Hallowell Rd",
+                "town": "Pownal, ME 04069",
+                "desc": "This cafe in Pownal serves a full menu of soups, salads, and sandwiches in addition to the bakery confections. The secret to the cinnamon-sugar-coated, crunchy treats is in the fryer, where they take a dip in the same oil that's used to fry french fries.",
+                "icon": "img/edna_icon.png"
+            },
+            "id": 9
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.96646290211024, 43.917521296002775]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Frosty's Donuts & Coffee Shop",
+                "street": "54 Maine St",
+                "town": "Brunswick, ME 04011",
+                "desc": "Previously owned by the Frosts since the 1950s, the bakery was recently sold to a couple who continue to make Bob Frost's recipes, cutting each donut by hand. Customize yours at the new make-your-own station, where you can chose your donut base, glaze, and candy toppings.",
+                "icon": "img/frosty_icon.png"
+            },
+            "id": 10
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.65354070000001, 43.9923073]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Pretentious Pie Co.",
+                "street": "679 Roosevelt Trail",
+                "town": "Naples, ME 04055",
+                "desc": "Since its opening this spring, this cheeky bakery has been supplying the Lakes Region with donuts drizzled with technicolor glazes and toppings like Oreos, Fruit Loops, and Snickers. The owner also sells donuts at the more sedate Benoit's Bakery & Wine Cellar in Lisbon.",
+                "icon": "img/pret_icon.png"
+            },
+            "id": 11
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.25758981704712, 44.08170028333333]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Georgio's Pizza & Donuts",
+                "street": "740 Minot Ave",
+                "town": "Auburn, ME 04210",
+                "desc": "Donuts for breakfast and pizza for dinner? Sold! This Auburn institution has been slinging dough for over 50 years and makes classic flavors of donuts on site. Try the cheeseburger \"novelty\" donut if you're brave.",
+                "icon": "img/georgio_icon.png"
+            },
+            "id": 12
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.09640789031982, 44.12869142853694]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Willow Bake Shoppe",
+                "street": "1097 Commercial St",
+                "town": "Rockport, ME 04856",
+                "desc": "Cake donuts reign supreme at this roadside bakery, where they're made on-site and offered in a variety of flavors and toppings daily. But if raised donuts are your thing, stop by the shop on Tuesdays, Thursdays, or Saturdays for the yeasty treat.",
+                "icon": "img/willow_icon.png"
+            },
+            "id": 13
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-68.77438940000002, 44.8055282]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Gosselin's Bakery",
+                "street": "334 Harlow St",
+                "town": "Bangor, ME 04401",
+                "desc": "A family-run business since 1945, the bakers still use Grandpa Gosselin's original recipe. Go early for your sugar fix, since the bakery closes when the donuts sell out — and bring cash, as Gosselin's doesn't accept cards.",
+                "icon": "img/gosselin_icon.png"
+            },
+            "id": 14
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.30865996883222, 45.05438062019431]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Urban Sugar Donuts",
+                "street": "5092 Access Rd",
+                "town": "Kingfield, Maine 04947",
+                "desc": "This popular mini donut maker returns to Portland after spending the winter at Sugarloaf Mountain, where a successful Kickstarter campaign helped him to open a brick and mortar restaurant. The food truck will bring its popular candied bacon and Fruity Pebbles toppings to the masses.",
+                "icon": "img/urban_icon.png"
+            },
+            "id": 15
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.88206426425033, 45.060112149096646]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Thompson's Restaurant",
+                "street": "348 Main St",
+                "town": "Bingham, ME 04920",
+                "desc": "Naturally, a family restaurant like Thompson's makes its own doughnuts for breakfast. Stop by for a filling meal at the counter or grab a dozen doughnuts to go before you head off into the Maine woods. (Careful, though — bears are notoriously fond of doughnuts.)",
+                "icon": "img/thompson_icon.png"
+            },
+            "id": 16
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-67.83961057662964, 46.12590194719825]
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Sadie's Bakery",
+                "street": "5 Water St",
+                "town": "Houlton, ME 04730",
+                "desc": "This bakery keeps it simple, offering two types of donuts daily: plain and a specialty flavor like molasses glazed, pumpkin, or chocolate. Sadie's doughnuts go fast, but you can console yourself with a housemade cinnamon roll, cookie, or muffin if you miss out.",
+                "icon": "img/sadie_icon.png"
+            },
+            "id": 17
+        }
+    ]
+};
