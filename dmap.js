@@ -12,6 +12,14 @@ function onEachFeature(feature, layer) {
         "<div class=desc>" + feature.properties.desc + "</div>";
 
     layer.bindPopup(popupContent);
+
+    layer.on('mouseover', function (e) {
+        this.openPopup();
+    });
+    layer.on('mouseout', function (e) {
+        this.closePopup();
+    });
+
 }
 
 L.geoJson(dnutShops, {
