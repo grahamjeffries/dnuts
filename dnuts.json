@@ -214,13 +214,13 @@ var dnutShops = {
         {
             "geometry": {
                 "type": "Point",
-                "coordinates": [-70.30865996883222, 45.05438062019431]
+                "coordinates": [-70.246977, 43.670832]
             },
             "type": "Feature",
             "properties": {
                 "name": "Urban Sugar Donuts",
-                "street": "5092 Access Rd",
-                "town": "Kingfield, Maine 04947",
+                "street": "Eastern Prom",
+                "town": "Portland, Maine 04947",
                 "desc": "This popular mini donut maker returns to Portland after spending the winter at Sugarloaf Mountain, where a successful Kickstarter campaign helped him to open a brick and mortar restaurant. The food truck will bring its popular candied bacon and Fruity Pebbles toppings to the masses.",
                 "icon": "img/urban_icon.png"
             },

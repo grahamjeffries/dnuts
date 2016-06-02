@@ -1,11 +1,12 @@
 body {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 html, body, #dmap {
-    height: 100%;
-    width: 100%;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 0, 0, 0.0);
 }
 
 #dmap .name {
@@ -18,4 +19,16 @@ html, body, #dmap {
 
 #dmap .desc {
 
+}
+
+#compass {
+	position: fixed;
+	left: 75px;
+	top: 75px;
+}
+
+#badge {
+	position: fixed;
+	right: 75px;
+	bottom: 75px;
 }
