@@ -45,6 +45,16 @@ html, body, #dmap {
   text-align: center;
 }
 
+#dmap .icon img {
+  width: 200px;
+  height: 200px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #dmap .name {
   font-family: Verdana, Geneva, sans-serif;
   font-weight: bold;
