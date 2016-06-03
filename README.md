@@ -6,7 +6,7 @@
 </p>
 
 
-[Here's the map](https://www.grahamrjeffries.com/dnuts)
+[Here's the map](http://www.grahamrjeffries.com/dnuts)
 
 ## Maine Donut Map
 This project celebrates the legacy of the donut in Maine by displaying renouned donut shops in the state. The map is presented as part of the *Hole History Show: Origins of the American-style Donut*.
