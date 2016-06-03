@@ -4,22 +4,25 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Donut Eater Map</title>
 
-	<link rel="stylesheet" href="leaflet.css" />
-	<link rel="stylesheet" href="dmap.css"/>
+  <link rel="stylesheet" href="leaflet.css" />
+  <link rel="stylesheet" href="dmap.css"/>
 
 </head>
 
-<body style="background-image:url(img/background_tile.png);margin:0;padding:0;background-attachment: fixed;">
 <body>
+    <div id="alert">
+      <img src="img/title-logo.jpg"/>
+      <div id="mission">The humble donut is having its moment in the spotlight, with hip shops and food trucks dedicated to the fried treat opening across the country. Here in Maine — where a Rockland plaque honors one man who claimed to have invented the hole in the donut — strong upstarts coexist with classic bakeries that have cut and fried dough for decades, oblivious of the trends. Check out these 17 shops, new and old school, crafting essential versions of the craveable snack.</div>
+      <div id="badge"><img src="img/kate-badge.png"/></div>
+      <div id="attribution">Powered by Leaflet and Mapbox</div>
+  </div>
 
-	<div id="dmap"></div>
-	<div id="compass"><img src="img/donut-compass.png"/></div>
-	<div id="badge"><img src="img/kate-badge.png"/></div>
-
-	<script src="dnuts.json" type="text/javascript"></script>
-	<script src="leaflet.js"></script>
-	<script src="dmap.js"></script>
-
+  <div id="dmap"></div>
+  <div id="compass"><img src="img/donut-compass.png"/></div>
+ 
+  <script src="dnuts.json" type="text/javascript"></script>
+  <script src="leaflet.js"></script>
+  <script src="dmap.js"></script>
 
 </body>
 </html>

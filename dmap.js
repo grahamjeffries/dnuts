@@ -31,7 +31,7 @@ L.geoJson(dnutShops, {
     pointToLayer: function (feature, latlng) {
         return L.marker(latlng, {icon: L.icon({
                     iconUrl: feature.properties.icon,
-                    iconSize: [30, 30],
+                    iconSize: [50, 50],
                     iconAnchor: [16, 37],
                     popupAnchor: [0, -28]
                 })

@@ -1,34 +1,71 @@
 body {
-	padding: 0;
-	margin: 0;
+  background-image: url(img/background_tile.jpg);
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
 }
 
 html, body, #dmap {
-	height: 100%;
-	width: 100%;
-	background-color: rgba(255, 0, 0, 0.0);
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.0);
+}
+
+#alert {
+  background-color: #5f3809;
+  color: #eff395;
+  width: 25%;
+  font-size: .9em;
+  line-height: 1.5em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 99990 !important;
+}
+
+#alert img {
+  width: 100%;
+}
+
+#alert #mission {
+  padding: 25px; 
+  text-align: center; 
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#alert #badge {
+  max-width: 229px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+#alert #attribution {
+  text-align: center;
 }
 
 #dmap .name {
-
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #18cca0;
+  text-align: center;
 }
 
 #dmap .address {
-
+  padding-bottom: 25px;
+  text-align: center;
 }
 
 #dmap .desc {
-
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.35em;
+  padding-bottom: 15px;
 }
 
 #compass {
-	position: fixed;
-	left: 75px;
-	top: 75px;
-}
-
-#badge {
-	position: fixed;
-	right: 75px;
-	bottom: 75px;
+  position: fixed;
+  left: 35px;
+  top: 35px;
 }
