@@ -22,6 +22,7 @@ html, body, #dmap {
   position: absolute;
   right: 0;
   top: 0;
+  padding-bottom: 20px;
   z-index: 99990 !important;
 }
 
@@ -43,6 +44,10 @@ html, body, #dmap {
 
 #alert #attribution {
   text-align: center;
+}
+
+a {
+  color: #18cca0;
 }
 
 #dmap .icon img {
