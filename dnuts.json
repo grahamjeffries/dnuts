@@ -71,7 +71,7 @@ var dnutShops = {
                 "name": "Little Bigs",
                 "street": "340 Main St - Rt. 1",
                 "town": "South Portland, ME 04106",
-                "desc": "Located in an unassuming Cash Corner strip mall on Route One, this diminutive bakery turns out stellar pastries, hand pies, and donuts. Little Bigs made headlines last year by recreating Dominique Ansel's croissant-doughnut hybrid \"Cronut\" — eventually a cease and desist letter prompted the South Portland bakery to rename its treats \"C&Ds.\"",
+                "desc": "Located in an unassuming Cash Corner strip mall on Route One, this diminutive bakery turns out stellar pastries, hand pies, and donuts. Little Bigs made headlines last year by recreating Dominique Ansel's croissant-donut hybrid \"Cronut\" — eventually a cease and desist letter prompted the South Portland bakery to rename its treats \"C&Ds.\"",
                 "icon": "img/little_icon.png"
             },
             "id": 5
@@ -236,7 +236,7 @@ var dnutShops = {
                 "name": "Thompson's Restaurant",
                 "street": "348 Main St",
                 "town": "Bingham, ME 04920",
-                "desc": "Naturally, a family restaurant like Thompson's makes its own doughnuts for breakfast. Stop by for a filling meal at the counter or grab a dozen doughnuts to go before you head off into the Maine woods. (Careful, though — bears are notoriously fond of doughnuts.)",
+                "desc": "Naturally, a family restaurant like Thompson's makes its own donuts for breakfast. Stop by for a filling meal at the counter or grab a dozen donuts to go before you head off into the Maine woods. (Careful, though — bears are notoriously fond of donuts.)",
                 "icon": "img/thompson_icon.png"
             },
             "id": 16
@@ -251,7 +251,7 @@ var dnutShops = {
                 "name": "Sadie's Bakery",
                 "street": "5 Water St",
                 "town": "Houlton, ME 04730",
-                "desc": "This bakery keeps it simple, offering two types of donuts daily: plain and a specialty flavor like molasses glazed, pumpkin, or chocolate. Sadie's doughnuts go fast, but you can console yourself with a housemade cinnamon roll, cookie, or muffin if you miss out.",
+                "desc": "This bakery keeps it simple, offering two types of donuts daily: plain and a specialty flavor like molasses glazed, pumpkin, or chocolate. Sadie's donuts go fast, but you can console yourself with a housemade cinnamon roll, cookie, or muffin if you miss out.",
                 "icon": "img/sadie_icon.png"
             },
             "id": 17
